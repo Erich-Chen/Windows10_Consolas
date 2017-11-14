@@ -33,7 +33,8 @@ Windows Registry Editor Version 5.00
 "Segoe UI"="Consolas"
 ```
 NOTE1: No need to replace more register items. windows 10 failed to boot when I set every Segoe items into empty.   
-NOTE2: Do not replace Segoe UI Symbol (TrueType), or num-pad for PIN code screen will display error on touchscreen.  
+NOTE2: Do not replace Segoe UI Symbol (TrueType), or num-pad for PIN code screen will display error on touchscreen. 
+NOTE3: I have not figure out a solution to replace fonts in start-menu or UWP apps. 
 
 SegoeUI.reg
 ```
