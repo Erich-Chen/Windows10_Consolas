@@ -1,9 +1,9 @@
 # Windows10_Consolas
 
-My first idea is to solve Chinese charactor display following the guideline:  
+My first idea was to solve Chinese charactor display in commandline by following below guideline:  
 https://shajisoft.com/shajisoft_wp/fontlink-for-cjk-on-english-windows-10/ 
 
-To conclusion, set up fontlink for consolas with one-line command:  
+To conclusion, set up fontlink for consolas with a one-line command:  
 ```
 REG ADD "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Fontlink\SystemLink" /v Consolas /t REG_MULTI_SZ /d "MSYH.TTC,Microsoft YaHei UI,128,96"\0"MSYH.TTC,Microsoft YaHei UI"\0"Arial.TTF,Arial"
 pause
