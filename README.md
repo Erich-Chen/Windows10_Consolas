@@ -3,12 +3,16 @@
 My first idea was to solve Chinese charactor display in commandline by following below guideline:  
 https://shajisoft.com/shajisoft_wp/fontlink-for-cjk-on-english-windows-10/ 
 
+
+## Make consolas support CJK with Microsoft Yahei by using fontlink
 To conclusion, set up fontlink for consolas with a one-line command:  
 ```
 REG ADD "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Fontlink\SystemLink" /v Consolas /t REG_MULTI_SZ /d "MSYH.TTC,Microsoft YaHei UI,128,96"\0"MSYH.TTC,Microsoft YaHei UI"\0"Arial.TTF,Arial"
 pause
 ```
 
+
+## Use Consolas font as Windows GUI font (Not Recommended)
 Furthermore, I think Consolas is also a good font for default Windows 10 GUI. So I reached lanceon on gist:   
 https://gist.github.com/lanceon/57a5b03a7e12b0538277  
 
